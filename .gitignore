@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+
+# Local recordings & run output
+recordings/
+*.wav
+
+# Internal working docs (German, not part of the public repo)
+STATE.md
+
+# Raw pipeline runs (contain _key.json re-identification maps)
+test-data/output/
+test-data/_meta/
+
+# macOS
+.DS_Store
